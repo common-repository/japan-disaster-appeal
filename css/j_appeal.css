@@ -1,0 +1,78 @@
+#japan_appeal {
+	background:url(../images/corner.png) no-repeat;
+	width:126px;
+	height:126px;
+	position:absolute;
+	top:0;
+	left:0;
+	font-family:Arial, Helvetica, sans-serif !important;
+	color:#eab2b2 !important;
+	z-index:99999999 !important;
+}
+
+#japan_appeal img {
+	position:absolute;
+	top:1px;
+	right:1px;
+	width:70px !important;
+	height:70px !important;
+}
+
+#japan_appeal li {
+	list-style:none;
+	position:relative;
+	font-size:12px;
+	line-height:18px;
+}
+
+#japan_appeal li a {
+	color:#fff;
+	text-decoration:none;
+	width:170px;
+}
+
+#japan_appeal li a:hover {
+	background:#ce4b4b !important;
+	display:block;
+	border-radius:2px;
+	-moz-border-radius:2px;
+	border-radius:2px;
+}
+
+#japan_appeal ul {
+	display:none;
+}
+
+#japan_appeal:hover li ul {
+	width:270px;
+	display:block;
+	position:absolute;
+	left:10px;
+	top:10px;
+	background:#b90000;
+	padding:12px;
+	border-radius:5px;
+	-moz-border-radius:5px;
+	border-radius:5px;
+	-moz-box-shadow:0 0 8px #333;
+	-webkit-box-shadow:0 0 8px #333;
+	box-shadow:0 0 8px #333;
+	z-index:999999999 !important;
+}
+
+#japan_appeal .get {
+	color:#999;
+	font-size:10px;
+	position:absolute;
+	top:12px;
+	left:0;
+	background:#000;
+	border-radius:2px;
+	-moz-border-radius:2px;
+	border-radius:2px;
+	padding:0 5px !important;
+}
+
+#japan_appeal .get:hover {
+	background:none;
+}
